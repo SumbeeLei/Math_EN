@@ -2,7 +2,7 @@
 ----
 We rewrote the code, and at present we only finished two normalization methods in this code (test acc: 65.5%), cause I haven't found previous preprocessing code, I will complement another normalization method as soon as possible.(but we provide the original norm files, so you can use directly) Thus, I directly used the previous templates with EN to do the entire experiments (test acc: ~67%).
 
-This code requires python 3.5, pytorch 4.0 and some common python tools.
+This code requires python 3.5, pytorch 0.4 and some common python tools.
 
 Code for data processing is in the data_process.ipynb
 
