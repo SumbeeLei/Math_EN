@@ -36,7 +36,7 @@ class DecoderRNN_3(BaseRNN):
             self.rnn = rnn_cell
 
         self.out = nn.Linear(self.hidden_size, self.class_size)
-        #self.attention = Attention_1(hidden_size)
+        self.attention = Attention_1(hidden_size)
 
     #def _init_state(self, encoder_hidden, op_type):
         
@@ -56,7 +56,7 @@ class DecoderRNN_3(BaseRNN):
 
         output, hidden = self.rnn(embedded, hidden)
 
-        #output, attn = self.attention(output, encoder_outputs)
+        output, attn = self.attention(output, encoder_outputs)
 
         predicted_softmax = function(self.out(\
                             output.contiguous().view(-1, self.hidden_size)), dim=1)\
