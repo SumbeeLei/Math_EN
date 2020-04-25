@@ -17,3 +17,4 @@ The training accuracy, and test accuracy will be printed. (you can randomly samp
 ## References
 ----
 - Lei Wang, Yan Wang, Deng Cai, Dongxiang Zhang, Xiaojiang Liu, "Translating a Math Word Problem to an Expression Tree", https://arxiv.org/abs/1811.05632
+[![Run on Repl.it](https://repl.it/badge/github/SumbeeLei/Math_EN)](https://repl.it/github/SumbeeLei/Math_EN)
